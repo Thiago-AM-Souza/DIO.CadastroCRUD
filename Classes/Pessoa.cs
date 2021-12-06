@@ -9,9 +9,9 @@ namespace DIO.Cadastro
         private Sexo Sexo;
         private string Endereco;
         private bool Excluido;
-        private DateTime Cadastro;
+        private string Cadastro;
 
-        public Pessoa(int Id, string Nome, int AnoNasc, Sexo Sexo, string Endereco, DateTime Cadastro)
+        public Pessoa(int Id, string Nome, int AnoNasc, Sexo Sexo, string Endereco, string Cadastro)
         {
             this.Id = Id;
             this.Nome = Nome;

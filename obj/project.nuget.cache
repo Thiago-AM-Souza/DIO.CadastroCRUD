@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "niZFAEr3M4B96bjLA03OLiTszPxc3UDLLJr2UX1j3VLo0vdYuNinqcJ+8F9Jdepj5pQid4ALPdL7R9fCkRT5qw==",
+  "dgSpecHash": "yOhnvoAsxeLgYSxxIIcTPnBq6WxdQWJT8feo5SIVdlwXBAGs1voBUjpTkStO0CfW2Jwm1usUL5iIbVVvHSugPg==",
   "success": true,
-  "projectFilePath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.Cadastro/DIO.Cadastro.csproj",
+  "projectFilePath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.CadastroCRUD/DIO.Cadastro.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

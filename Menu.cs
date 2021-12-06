@@ -40,13 +40,13 @@ namespace DIO.Cadastro{
             int entradaAnoNasc = int.Parse(Console.ReadLine());
             Console.Write("Digite o endereço: ");
             string entradaEnd = Console.ReadLine();
-
+            string dataFormat = DateTime.Today.ToString("dd/MM/yyyy");
             Pessoa atualizaCad = new Pessoa(Id: indiceSerie,
                                             Sexo: (Sexo)entradaSexo,
                                             Nome: entradaNome,
                                             AnoNasc: entradaAnoNasc,
                                             Endereco: entradaEnd,
-                                            Cadastro: DateTime.Today.Date);
+                                            Cadastro: dataFormat);
 
             pessoaRepo.Atualiza(indiceSerie, atualizaCad);
         }
@@ -68,10 +68,11 @@ namespace DIO.Cadastro{
             int entradaAnoNasc = int.Parse(Console.ReadLine());
             Console.Write("Digite o endereço: ");
             string entradaDesc = Console.ReadLine();
+            string dataFormat = DateTime.Today.ToString("dd/MM/yyyy");
 
             Pessoa novaPessoa = new Pessoa(Id: pessoaRepo.ProximoId(), Sexo: (Sexo)entradaSexo
             ,Nome: entradaNome,
-            AnoNasc: entradaAnoNasc, Endereco: entradaDesc, Cadastro: DateTime.Today.Date);
+            AnoNasc: entradaAnoNasc, Endereco: entradaDesc, Cadastro: dataFormat);
             
             pessoaRepo.Insere(novaPessoa);
         }

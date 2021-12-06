@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.Cadastro/DIO.Cadastro.csproj",
+      "projectUniqueName": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.CadastroCRUD/DIO.Cadastro.csproj",
       "projectName": "DIO.Cadastro",
-      "projectPath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.Cadastro/DIO.Cadastro.csproj",
+      "projectPath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.CadastroCRUD/DIO.Cadastro.csproj",
       "packagesPath": "/home/thiago/.nuget/packages/",
-      "outputPath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.Cadastro/obj/",
+      "outputPath": "/home/thiago/Área de Trabalho/Programação/C#/Bootcamp DIO/DIO.CadastroCRUD/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/thiago/.nuget/NuGet/NuGet.Config"
@@ -58,7 +58,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/snap/dotnet-sdk/150/sdk/6.0.100/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.100/RuntimeIdentifierGraph.json"
       }
     }
   }
